@@ -1,0 +1,74 @@
+[
+  {
+    "dataset": "cora",
+    "prune_method": "spectral",
+    "prune_ratio": 0.0,
+    "acc_mean": 0.8040000081062317,
+    "acc_std": 0.004979953174922633,
+    "mem_mean": 36.23125,
+    "mem_std": 41.225555493907535,
+    "time_mean": 3.240504633600358,
+    "time_std": 0.12204400620517651,
+    "edges_remaining": 5278
+  },
+  {
+    "dataset": "cora",
+    "prune_method": "spectral",
+    "prune_ratio": 0.1,
+    "acc_mean": 0.7956000089645385,
+    "acc_std": 0.00195960306552378,
+    "mem_mean": 57.884375,
+    "mem_std": 24.72850747682217,
+    "time_mean": 3.208968858793378,
+    "time_std": 0.1949696784607122,
+    "edges_remaining": 4751
+  },
+  {
+    "dataset": "cora",
+    "prune_method": "spectral",
+    "prune_ratio": 0.2,
+    "acc_mean": 0.7879999876022339,
+    "acc_std": 0.0032248985452113764,
+    "mem_mean": 14.071875,
+    "mem_std": 2.9245826358217335,
+    "time_mean": 2.9933027584047522,
+    "time_std": 0.06256814198784395,
+    "edges_remaining": 4223
+  },
+  {
+    "dataset": "cora",
+    "prune_method": "spectral",
+    "prune_ratio": 0.3,
+    "acc_mean": 0.7807999968528747,
+    "acc_std": 0.004578209161107814,
+    "mem_mean": 40.834375,
+    "mem_std": 49.17864695583085,
+    "time_mean": 3.257910808606539,
+    "time_std": 0.19214432508997523,
+    "edges_remaining": 3695
+  },
+  {
+    "dataset": "cora",
+    "prune_method": "spectral",
+    "prune_ratio": 0.5,
+    "acc_mean": 0.7299999952316284,
+    "acc_std": 0.004000008106249452,
+    "mem_mean": 0.234375,
+    "mem_std": 0.2292140102611531,
+    "time_mean": 3.756681008392479,
+    "time_std": 0.2606870673363686,
+    "edges_remaining": 2639
+  },
+  {
+    "dataset": "cora",
+    "prune_method": "spectral",
+    "prune_ratio": 0.7,
+    "acc_mean": 0.6729999899864196,
+    "acc_std": 0.0036878123264609372,
+    "mem_mean": 50.009375,
+    "mem_std": 39.77522121442255,
+    "time_mean": 5.95705227520084,
+    "time_std": 1.0838203071474075,
+    "edges_remaining": 1584
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "dataset": "cora",
+    "prune_method": "none",
+    "prune_ratio": 0.0,
+    "acc_mean": 0.8040000081062317,
+    "acc_std": 0.004979953174922633,
+    "mem_mean": 80.075,
+    "mem_std": 28.253068486560004,
+    "time_mean": 8.034240875195247,
+    "time_std": 0.7775822129935425,
+    "edges_remaining": 5278,
+    "original_edges": 5278
+  },
+  {
+    "dataset": "cora",
+    "prune_method": "random",
+    "prune_ratio": 0.5,
+    "acc_mean": 0.7457999944686889,
+    "acc_std": 0.007626262862914557,
+    "mem_mean": 11.465625,
+    "mem_std": 22.56413039469392,
+    "time_mean": 5.667002416605828,
+    "time_std": 0.5214306966424234,
+    "edges_remaining": 2639,
+    "original_edges": 5278
+  },
+  {
+    "dataset": "cora",
+    "prune_method": "degree",
+    "prune_ratio": 0.5,
+    "acc_mean": 0.725600004196167,
+    "acc_std": 0.009350935992154648,
+    "mem_mean": 0.259375,
+    "mem_std": 0.17527879577975197,
+    "time_mean": 4.7430096334021075,
+    "time_std": 0.15200589637731338,
+    "edges_remaining": 2639,
+    "original_edges": 5278
+  },
+  {
+    "dataset": "cora",
+    "prune_method": "spectral",
+    "prune_ratio": 0.5,
+    "acc_mean": 0.7266000032424926,
+    "acc_std": 0.004758152276330983,
+    "mem_mean": 0.0625,
+    "mem_std": 0.04941058844013093,
+    "time_mean": 4.155575174797559,
+    "time_std": 0.16994655951566007,
+    "edges_remaining": 2639,
+    "original_edges": 5278
+  }
+]

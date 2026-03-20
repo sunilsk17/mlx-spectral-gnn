@@ -1,0 +1,54 @@
+[
+  {
+    "dataset": "citeseer",
+    "prune_method": "none",
+    "prune_ratio": 0.0,
+    "acc_mean": 0.7059999942779541,
+    "acc_std": 0.008988875040676896,
+    "mem_mean": 142.990625,
+    "mem_std": 80.38378256837632,
+    "time_mean": 10.160546158399665,
+    "time_std": 0.31891542525630057,
+    "edges_remaining": 4614,
+    "original_edges": 4614
+  },
+  {
+    "dataset": "citeseer",
+    "prune_method": "random",
+    "prune_ratio": 0.5,
+    "acc_mean": 0.6826000094413758,
+    "acc_std": 0.009769347267183068,
+    "mem_mean": 73.5375,
+    "mem_std": 90.05186472163555,
+    "time_mean": 9.913661407999461,
+    "time_std": 0.12507933645386293,
+    "edges_remaining": 2306,
+    "original_edges": 4614
+  },
+  {
+    "dataset": "citeseer",
+    "prune_method": "degree",
+    "prune_ratio": 0.5,
+    "acc_mean": 0.6858000159263611,
+    "acc_std": 0.006764622584715626,
+    "mem_mean": 33.765625,
+    "mem_std": 46.384604589979524,
+    "time_mean": 9.81210011660005,
+    "time_std": 0.06490451702518114,
+    "edges_remaining": 2309,
+    "original_edges": 4614
+  },
+  {
+    "dataset": "citeseer",
+    "prune_method": "spectral",
+    "prune_ratio": 0.5,
+    "acc_mean": 0.6562000036239624,
+    "acc_std": 0.005153629116886509,
+    "mem_mean": 138.775,
+    "mem_std": 114.41461515102102,
+    "time_mean": 10.137888658395969,
+    "time_std": 0.23712709958233633,
+    "edges_remaining": 2338,
+    "original_edges": 4614
+  }
+]

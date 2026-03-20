@@ -1,0 +1,65 @@
+/Users/sunilkumars/Desktop/research new/mlx_spectral_gnn/utils/graph_utils.py:64: RuntimeWarning: divide by zero encountered in power
+  r_inv = np.power(rowsum, -1).flatten()
+
+======================================================================
+  Hardware-Aware Spectral Sparsification for GNN Training
+  on Apple Silicon (MLX)
+======================================================================
+  platform: macOS-26.3.1-arm64-arm-64bit
+  processor: arm
+  python_version: 3.11.5
+  total_ram_gb: 8.0
+  mlx_device: Device(gpu, 0)
+
+======================================================================
+SYSTEM INFORMATION
+======================================================================
+  platform: macOS-26.3.1-arm64-arm-64bit
+  processor: arm
+  python_version: 3.11.5
+  total_ram_gb: 8.0
+  mlx_device: Device(gpu, 0)
+
+======================================================================
+EXPERIMENT 1: Pruning Ratio Sweep — CITESEER
+======================================================================
+[CITESEER] Loaded: 3327 nodes, 4614 edges, 3703 features, 6 classes
+  Train: 120, Val: 500, Test: 1000
+
+  [Spectral] Computing pruned graph for ratio=0.0...
+    [Spectral] ratio=0.0, seed=42
+    → acc=0.7110, mem=53.7MB, time=10.52s, edges=4614
+    [Spectral] ratio=0.0, seed=123
+    → acc=0.7090, mem=179.7MB, time=10.25s, edges=4614
+    [Spectral] ratio=0.0, seed=456
+    → acc=0.7150, mem=18.4MB, time=10.36s, edges=4614
+    [Spectral] ratio=0.0, seed=789
+    → acc=0.6890, mem=103.1MB, time=10.30s, edges=4614
+    [Spectral] ratio=0.0, seed=1024
+    → acc=0.7060, mem=35.7MB, time=10.42s, edges=4614
+
+  Summary ratio=0.0: acc=0.7060±0.0090, mem=78.1MB, time=10.37s
+
+  [Spectral] Computing pruned graph for ratio=0.1...
+    [Spectral] ratio=0.1, seed=42
+    → acc=0.7000, mem=66.4MB, time=10.18s, edges=4209
+    [Spectral] ratio=0.1, seed=123
+    → acc=0.7020, mem=0.1MB, time=10.33s, edges=4209
+    [Spectral] ratio=0.1, seed=456
+Traceback (most recent call last):
+  File "/Users/sunilkumars/Desktop/research new/mlx_spectral_gnn/main.py", line 121, in <module>
+    main()
+  File "/Users/sunilkumars/Desktop/research new/mlx_spectral_gnn/main.py", line 112, in main
+    run_all_experiments(datasets)
+  File "/Users/sunilkumars/Desktop/research new/mlx_spectral_gnn/experiments/run_experiments.py", line 258, in run_all_experiments
+    sweep_results = experiment_pruning_ratio_sweep(dataset_name)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sunilkumars/Desktop/research new/mlx_spectral_gnn/experiments/run_experiments.py", line 87, in experiment_pruning_ratio_sweep
+    result = run_single_experiment(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/sunilkumars/Desktop/research new/mlx_spectral_gnn/experiments/run_experiments.py", line 40, in run_single_experiment
+    results = train_and_evaluate(
+              ^^^^^^^^^^^^^^^^^^^
+  File "/Users/sunilkumars/Desktop/research new/mlx_spectral_gnn/train.py", line 133, in train_and_evaluate
+    mx.eval(model.parameters(), optimizer.state)
+KeyboardInterrupt
